@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css ">
+    <link rel="stylesheet" href="./assets/css/swiper.css ">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Misr Alaan</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="col">
+                <img src="./assets/imgs/logo.png" alt="logo">
+            </div>
+            <div class="col">
+                <div class="info">
+                    <span>رئيس مجلس الادارة : د/ محمد أسعد</span>
+                    <span>رئيس التحرير : صفوت عبد العظيم</span>
+                </div>
+                <nav>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <!-- <path stroke="none" d="M0 0h24v24H0z" fill="none"/> -->
+                            <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+                            <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                            <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                        </svg>
+                        الرئيسية
+                    </a>
+                    <a href="">
+                        اخبار مصر
+                    </a>
+                    <a href="">
+                        اقتصاد وبنوك
+                    </a>
+                    <a href="">
+                        رياضة مصرية
+                    </a>
+                    <a href="">
+                        عالم الفن
+                    </a>
+                    <a href="">
+                        خدمات
+                    </a>
+                    <a href="" class="more show_aside">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <!-- <path stroke="none" d="M0 0h24v24H0z" fill="none"/> -->
+                            <path d="M4 6l16 0" />
+                            <path d="M4 12l16 0" />
+                            <path d="M4 18l16 0" />
+                        </svg>
+                    </a>
+                </nav>
+            </div>
+            <div class="col">
+                <div class="social">
+                    <a href="" style="background: #1d4798;border: 1px solid #ffffff54;">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                        </svg>
+                    </a>
+                    <a href="" style="background: black;border: 1px solid #ffffff54;box-sizing: content-box;">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                            <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                        </svg>
+                    </a>
+                    <a href="" style="background: #ff0000;border: 1px solid #ffffff70;">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
+                            <path d="M10 9l5 3l-5 3z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="input-search-group">
+                    <input type="text" placeholder="أدخل كلمة البحث">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                        <path d="M21 21l-6 -6" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header class="mobile">
+        <div class="row">
+            <img src="./assets/imgs/logo.png" alt="logo">
+            <div class="links">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                        <path d="M21 21l-6 -6" />
+                        </svg>
+                </a>
+                <a href="" class="show_aside">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M4 6l16 0" />
+                        <path d="M4 12l16 0" />
+                        <path d="M4 18l16 0" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+            <div class="row info">
+                <div>
+                    <span>رئيس مجلس الادارة : د/ محمد أسعد</span>
+                    <span>رئيس التحرير : صفوت عبد العظيم</span>
+                </div>
+                <div class="social">
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                            <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
+                            <path d="M10 9l5 3l-5 3z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+    </header>
+    <div class="hide-content"></div>
+    <aside class="animate__animated">
+        <div class="social">
+            <a href="" style="background: #1d4798;border: 1px solid #ffffff54;">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                </svg>
+            </a>
+            <a href="" style="background: black;border: 1px solid #ffffff54;box-sizing: content-box;">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                    <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                </svg>
+            </a>
+            <a href="" style="background: #ff0000;border: 1px solid #ffffff70;">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
+                    <path d="M10 9l5 3l-5 3z" />
+                </svg>
+            </a>
+        </div>
+        <nav>
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <!-- <path stroke="none" d="M0 0h24v24H0z" fill="none"/> -->
+                    <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+                    <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                    <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                </svg>
+                الرئيسية
+            </a>
+            <a href="">
+                اخبار مصر
+            </a>
+            <a href="">
+                اقتصاد وبنوك
+            </a>
+            <a href="">
+                رياضة مصرية
+            </a>
+            <a href="">
+                عالم الفن
+            </a>
+            <a href="">
+                خدمات
+            </a>
+        </nav>
+    </aside>
+
+    <div class="container" style="display: flex;margin-top: 1rem;">
+        <img class="horizontal-ad" src="./assets/imgs/horizon-ad.jpg" alt="">
+    </div>
+
+    <main class="single_category_wrapper">
+        <div class="container">
+            <article>
+                <div class="show-more-articles-head">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-category" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h6v6h-6z" />
+                        <path d="M14 4h6v6h-6z" />
+                        <path d="M4 14h6v6h-6z" />
+                        <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                      </svg>
+                    جديد قسم رياضة
+                </div>
+                <div class="articles_wrapper">
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-1.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            محلل: البورصة صعدت 6500 نقطة خلال شهر واحد..والتصحيح كان عنيفًا
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-3.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            البورصة تنهي جلسة اليوم على أرباح جماعية تتخطى الـ 43 مليار جنيه
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-1.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            محلل: البورصة صعدت 6500 نقطة خلال شهر واحد..والتصحيح كان عنيفًا
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-2.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            بنك إنجلترا يثبت أسعار الفائدة
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-1.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            محلل: البورصة صعدت 6500 نقطة خلال شهر واحد..والتصحيح كان عنيفًا
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-4.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            شعبة النقل: مليون دولار زيادة في تكلفة عبور السفن من طريق رأس الرجاء الصالح
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-4.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            شعبة النقل: مليون دولار زيادة في تكلفة عبور السفن من طريق رأس الرجاء الصالح
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-4.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            شعبة النقل: مليون دولار زيادة في تكلفة عبور السفن من طريق رأس الرجاء الصالح
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-4.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            شعبة النقل: مليون دولار زيادة في تكلفة عبور السفن من طريق رأس الرجاء الصالح
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-4.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            شعبة النقل: مليون دولار زيادة في تكلفة عبور السفن من طريق رأس الرجاء الصالح
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-4.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            شعبة النقل: مليون دولار زيادة في تكلفة عبور السفن من طريق رأس الرجاء الصالح
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-4.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            شعبة النقل: مليون دولار زيادة في تكلفة عبور السفن من طريق رأس الرجاء الصالح
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-4.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            شعبة النقل: مليون دولار زيادة في تكلفة عبور السفن من طريق رأس الرجاء الصالح
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-4.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            شعبة النقل: مليون دولار زيادة في تكلفة عبور السفن من طريق رأس الرجاء الصالح
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-4.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            شعبة النقل: مليون دولار زيادة في تكلفة عبور السفن من طريق رأس الرجاء الصالح
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-4.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            شعبة النقل: مليون دولار زيادة في تكلفة عبور السفن من طريق رأس الرجاء الصالح
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-4.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            شعبة النقل: مليون دولار زيادة في تكلفة عبور السفن من طريق رأس الرجاء الصالح
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-4.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            شعبة النقل: مليون دولار زيادة في تكلفة عبور السفن من طريق رأس الرجاء الصالح
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-4.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            شعبة النقل: مليون دولار زيادة في تكلفة عبور السفن من طريق رأس الرجاء الصالح
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-4.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            شعبة النقل: مليون دولار زيادة في تكلفة عبور السفن من طريق رأس الرجاء الصالح
+                        </div>
+                    </a>
+                    <a href="" class="article">
+                        <div class="thumbnail">
+                            <img src="./assets/imgs/eco-4.JPG" alt="">
+                        </div>
+                        <div class="text">
+                            شعبة النقل: مليون دولار زيادة في تكلفة عبور السفن من طريق رأس الرجاء الصالح
+                        </div>
+                    </a>
+                </div>
+            </article>
+            <div class="side-bar">
+                <img src="./assets/imgs/article-silde-ad.jpg" alt="" class="side-ad">
+                <div class="statistics">
+                    <div class="vote">
+                        <div class="head">
+                            <h2>استطلاع رأي</h2>
+                            <div class="line"></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-align-left" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 6l16 0" />
+                                <path d="M4 12l10 0" />
+                                <path d="M4 18l14 0" />
+                            </svg>
+                        </div>
+                        <div class="question">  
+                            هل تؤيد مقاطعة المنتجات المستوردة التي ليس لها بدائل؟
+                        </div>
+                        <div class="answers">
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="radio" name="ans" id="ans_1">
+                                    <label for="ans_1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12l5 5l10 -10" />
+                                        </svg>
+                                          نعم
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="radio" name="ans" id="ans_2">
+                                    <label for="ans_2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12l5 5l10 -10" />
+                                        </svg>
+                                          لا
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="take-action">
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copy-check" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+                                    <path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" />
+                                    <path d="M11 14l2 2l4 -4" />
+                                  </svg>
+                                  تصويت
+                            </button>
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-report-analytics" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+                                    <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+                                    <path d="M9 17v-5" />
+                                    <path d="M12 17v-1" />
+                                    <path d="M15 17v-3" />
+                                  </svg>
+                                  النتائج
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="head">
+                            <h2>اسعار اليوم</h2>
+                            <div class="line"></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-businessplan" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 6m-5 0a5 3 0 1 0 10 0a5 3 0 1 0 -10 0" />
+                                <path d="M11 6v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" />
+                                <path d="M11 10v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" />
+                                <path d="M11 14v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" />
+                                <path d="M7 9h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5" />
+                                <path d="M5 15v1m0 -8v1" />
+                              </svg>
+                        </div>
+                        <div class="price">
+                            الذهب عيار 18
+                            <img src="./assets/imgs/gold_icon.png" alt="">
+                            3428.5 جنيهًا 
+                        </div>
+                        <div class="price">
+                            سعر الدولار 
+                            <img src="./assets/imgs/dollar.png" alt="">
+                            30.75 جنيهًا  
+                        </div>
+                        <div class="price">
+                            سعر الريال  
+                            <img src="./assets/imgs/dollar.png" alt="">
+                            8.195 جنيهًا   
+                        </div>
+                    </div>
+                    <div class="stat-ad">
+                        <img src="./assets/imgs/stat-ad.jpg" alt="">
+                    </div>
+                </div>
+                <h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-blockquote" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 15h15" />
+                        <path d="M21 19h-15" />
+                        <path d="M15 11h6" />
+                        <path d="M21 7h-6" />
+                        <path d="M9 9h1a1 1 0 1 1 -1 1v-2.5a2 2 0 0 1 2 -2" />
+                        <path d="M3 9h1a1 1 0 1 1 -1 1v-2.5a2 2 0 0 1 2 -2" />
+                      </svg>
+                      الاكثر قرائة
+                </h2>
+                <div class="most-popular-articles">
+                    <a class="article">
+                        <div class="img">
+                            <img src="./assets/imgs/popular-1.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <span class="cat">
+                                الاقتصاد والبنوك
+                            </span>
+                            مكاسب البورصة اليوم تسجل 22 مليار جنيه 
+                        </div>
+                    </a>
+                    <a class="article">
+                        <div class="img">
+                            <img src="./assets/imgs/popular-2.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <span class="cat">
+                                الاقتصاد والبنوك
+                            </span>
+                            المهندس طارق الملا وزير البترول .. يستقبل دينيس أبو دينين رئيسة شركة إيناب
+                        </div>
+                    </a>
+                    <a class="article">
+                        <div class="img">
+                            <img src="./assets/imgs/popular-3.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <span class="cat">
+                                الاخبار
+                            </span>
+                            الدكتورة رانيا المشاط: ننسق مع الوزارات لتعزيز الشراكات الدولية الهادفة للتكامل مع جهود الدولة لتحقيق الأمن
+                        </div>
+                    </a>
+                    <a class="article">
+                        <div class="img">
+                            <img src="./assets/imgs/popular-4.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <span class="cat">
+                                البرلمان 
+                            </span>
+                            النواب يوافق نهائيا وبالوقوف على تعديلات قانون قادرون باختلاف  
+                        </div>
+                    </a>
+                </div>    
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <div class="line"></div>
+                <img src="./assets/imgs/footer_logo.png" alt="">
+                <div class="line"></div>
+            </div>
+            <div class="social">
+                <a href="" style="background: #1d4798;border: 1px solid #ffffff54;">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                    </svg>
+                </a>
+                <a href="" style="background: black;border: 1px solid #ffffff54;box-sizing: content-box;">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                    </svg>
+                </a>
+                <a href="" style="background: #ff0000;border: 1px solid #ffffff70;">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
+                        <path d="M10 9l5 3l-5 3z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="links">
+                <a href=""> معلومات عنا </a>
+                <a href="">شروط الاستخدام </a>
+                <a href="">سياسة الخصوصية </a>
+            </div>
+            <div class="copy">
+                <b>
+                    جميع حقوق النشر محفوظة لموقع مصر الآن - تصميم وتطوير <span>سبيشيال تكنولوجى</span>
+                </b>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/swiper.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/listerners.js"></script>
+</body>
+</html>
