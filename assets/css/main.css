@@ -2129,6 +2129,7 @@ header.mobile {
     object-fit: cover;
     min-height: 100%;
     border-radius: 8px;
+    max-height: 55px;
   }
   .videos .container .videos_wrapper .article .thumbnail img {
     width: 100%;
