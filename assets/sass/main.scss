@@ -311,6 +311,14 @@ section {
                             }        
                             object-fit: cover
                         }
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            transition: .3s ease-in all;
+                            &:hover {
+                                color: #fee6e6;
+                            }
+                        }
                         .text {
                             position: absolute;
                             bottom: 0;
@@ -371,12 +379,16 @@ section {
                         box-shadow: 0 0 15.5px hsla(0,0%,83%,.23);
                         font-weight: 700;
                         cursor: pointer;
-                        transition: .3s all ease-in;
+                        a {
+                            transition: .3s all ease-in;
+                            color: black;
+                            text-decoration: none;
+                        }
                         @media (max-width: 1599.98px) {
                             line-height: 26px;
                             font-size: 16px;
                         }
-                        &:hover {
+                        a:hover {
                             color: $main-color;
                         }
                         .text {
@@ -1351,15 +1363,23 @@ section {
                     display: flex;
                     gap: 10px;
                     align-items: center;
-                    font-size: 14px;
+                    font-size: 19px;
                     padding: 10px;
                     background: white;
                     border-radius: 10px;
                     box-shadow: 0 0 15.5px hsla(0,0%,83%,.23);
-                    font-weight: 600;
+                    font-weight: 700;
                     cursor: pointer;
-                    transition: .3s all ease-in;
-                    &:hover {
+                    a {
+                        transition: .3s all ease-in;
+                        color: black;
+                        text-decoration: none;
+                    }
+                    @media (max-width: 1599.98px) {
+                        line-height: 26px;
+                        font-size: 16px;
+                    }
+                    a:hover {
                         color: $main-color;
                     }
                     .text {
@@ -1370,7 +1390,7 @@ section {
                         -webkit-box-orient: vertical;
                         .cat {
                             display: block;
-                            font-size: 12px;
+                            font-size: 15px;
                             padding-right: 5px;
                             border-right: 3px solid #900a0c;
                             line-height: 15px;
@@ -1391,7 +1411,7 @@ section {
                     }
                 }
             }     
-        }
+    }
     }
 }
 .single_category_wrapper {
@@ -1794,15 +1814,23 @@ section {
                     display: flex;
                     gap: 10px;
                     align-items: center;
-                    font-size: 14px;
+                    font-size: 19px;
                     padding: 10px;
                     background: white;
                     border-radius: 10px;
                     box-shadow: 0 0 15.5px hsla(0,0%,83%,.23);
-                    font-weight: 600;
+                    font-weight: 700;
                     cursor: pointer;
-                    transition: .3s all ease-in;
-                    &:hover {
+                    a {
+                        transition: .3s all ease-in;
+                        color: black;
+                        text-decoration: none;
+                    }
+                    @media (max-width: 1599.98px) {
+                        line-height: 26px;
+                        font-size: 16px;
+                    }
+                    a:hover {
                         color: $main-color;
                     }
                     .text {
@@ -1813,7 +1841,7 @@ section {
                         -webkit-box-orient: vertical;
                         .cat {
                             display: block;
-                            font-size: 12px;
+                            font-size: 15px;
                             padding-right: 5px;
                             border-right: 3px solid #900a0c;
                             line-height: 15px;
@@ -1834,7 +1862,7 @@ section {
                     }
                 }
             }     
-        }
+    }
     }
 }
 

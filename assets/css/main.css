@@ -324,6 +324,14 @@ section.main .container .main_articles_wrapper .swiper .swiper-slide img {
     height: 435px;
   }
 }
+section.main .container .main_articles_wrapper .swiper .swiper-slide a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease-in all;
+}
+section.main .container .main_articles_wrapper .swiper .swiper-slide a:hover {
+  color: #fee6e6;
+}
 section.main .container .main_articles_wrapper .swiper .swiper-slide .text {
   position: absolute;
   bottom: 0;
@@ -387,7 +395,11 @@ section.main .container .main_articles_wrapper .most-popular-articles .article {
   box-shadow: 0 0 15.5px hsla(0, 0%, 83%, 0.23);
   font-weight: 700;
   cursor: pointer;
+}
+section.main .container .main_articles_wrapper .most-popular-articles .article a {
   transition: 0.3s all ease-in;
+  color: black;
+  text-decoration: none;
 }
 @media (max-width: 1599.98px) {
   section.main .container .main_articles_wrapper .most-popular-articles .article {
@@ -395,7 +407,7 @@ section.main .container .main_articles_wrapper .most-popular-articles .article {
     font-size: 16px;
   }
 }
-section.main .container .main_articles_wrapper .most-popular-articles .article:hover {
+section.main .container .main_articles_wrapper .most-popular-articles .article a:hover {
   color: #c51212;
 }
 section.main .container .main_articles_wrapper .most-popular-articles .article .text {
@@ -1336,16 +1348,26 @@ section.main .ad img {
   display: flex;
   gap: 10px;
   align-items: center;
-  font-size: 14px;
+  font-size: 19px;
   padding: 10px;
   background: white;
   border-radius: 10px;
   box-shadow: 0 0 15.5px hsla(0, 0%, 83%, 0.23);
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
-  transition: 0.3s all ease-in;
 }
-.single_article_wrapper .container .side-bar .most-popular-articles .article:hover {
+.single_article_wrapper .container .side-bar .most-popular-articles .article a {
+  transition: 0.3s all ease-in;
+  color: black;
+  text-decoration: none;
+}
+@media (max-width: 1599.98px) {
+  .single_article_wrapper .container .side-bar .most-popular-articles .article {
+    line-height: 26px;
+    font-size: 16px;
+  }
+}
+.single_article_wrapper .container .side-bar .most-popular-articles .article a:hover {
   color: #c51212;
 }
 .single_article_wrapper .container .side-bar .most-popular-articles .article .text {
@@ -1357,7 +1379,7 @@ section.main .ad img {
 }
 .single_article_wrapper .container .side-bar .most-popular-articles .article .text .cat {
   display: block;
-  font-size: 12px;
+  font-size: 15px;
   padding-right: 5px;
   border-right: 3px solid #900a0c;
   line-height: 15px;
@@ -1762,16 +1784,26 @@ section.main .ad img {
   display: flex;
   gap: 10px;
   align-items: center;
-  font-size: 14px;
+  font-size: 19px;
   padding: 10px;
   background: white;
   border-radius: 10px;
   box-shadow: 0 0 15.5px hsla(0, 0%, 83%, 0.23);
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
-  transition: 0.3s all ease-in;
 }
-.single_category_wrapper .container .side-bar .most-popular-articles .article:hover {
+.single_category_wrapper .container .side-bar .most-popular-articles .article a {
+  transition: 0.3s all ease-in;
+  color: black;
+  text-decoration: none;
+}
+@media (max-width: 1599.98px) {
+  .single_category_wrapper .container .side-bar .most-popular-articles .article {
+    line-height: 26px;
+    font-size: 16px;
+  }
+}
+.single_category_wrapper .container .side-bar .most-popular-articles .article a:hover {
   color: #c51212;
 }
 .single_category_wrapper .container .side-bar .most-popular-articles .article .text {
@@ -1783,7 +1815,7 @@ section.main .ad img {
 }
 .single_category_wrapper .container .side-bar .most-popular-articles .article .text .cat {
   display: block;
-  font-size: 12px;
+  font-size: 15px;
   padding-right: 5px;
   border-right: 3px solid #900a0c;
   line-height: 15px;
