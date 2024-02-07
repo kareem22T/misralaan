@@ -279,7 +279,12 @@ section.main .container .main_articles_wrapper {
 }
 section.main .container .main_articles_wrapper .swiper {
   width: 100%;
-  height: 445px;
+  height: 475px;
+}
+@media (max-width: 1599.98px) {
+  section.main .container .main_articles_wrapper .swiper {
+    height: 435px;
+  }
 }
 section.main .container .main_articles_wrapper .swiper .swiper-slide {
   height: 100%;
@@ -288,8 +293,13 @@ section.main .container .main_articles_wrapper .swiper .swiper-slide {
 }
 section.main .container .main_articles_wrapper .swiper .swiper-slide img {
   width: 100%;
-  height: 100%;
+  height: 475px;
   object-fit: cover;
+}
+@media (max-width: 1599.98px) {
+  section.main .container .main_articles_wrapper .swiper .swiper-slide img {
+    height: 435px;
+  }
 }
 section.main .container .main_articles_wrapper .swiper .swiper-slide .text {
   position: absolute;
@@ -315,6 +325,16 @@ section.main .container .main_articles_wrapper .swiper .swiper-slide .text .cat 
 section.main .container .main_articles_wrapper .swiper .swiper-slide .text h1 {
   font-size: 26px;
 }
+@media (min-width: 1400px) {
+  section.main .container .main_articles_wrapper .swiper .swiper-slide .text h1 {
+    font-size: 37px;
+  }
+}
+@media (max-width: 1599.98px) {
+  section.main .container .main_articles_wrapper .swiper .swiper-slide .text h1 {
+    font-size: 27px;
+  }
+}
 section.main .container .main_articles_wrapper .swiper .swiper-pagination {
   left: 1rem;
   width: auto;
@@ -337,14 +357,20 @@ section.main .container .main_articles_wrapper .most-popular-articles .article {
   display: flex;
   gap: 10px;
   align-items: center;
-  font-size: 14px;
+  font-size: 19px;
   padding: 10px;
   background: white;
   border-radius: 10px;
   box-shadow: 0 0 15.5px hsla(0, 0%, 83%, 0.23);
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
   transition: 0.3s all ease-in;
+}
+@media (max-width: 1599.98px) {
+  section.main .container .main_articles_wrapper .most-popular-articles .article {
+    line-height: 26px;
+    font-size: 16px;
+  }
 }
 section.main .container .main_articles_wrapper .most-popular-articles .article:hover {
   color: #c51212;
@@ -358,7 +384,7 @@ section.main .container .main_articles_wrapper .most-popular-articles .article .
 }
 section.main .container .main_articles_wrapper .most-popular-articles .article .text .cat {
   display: block;
-  font-size: 12px;
+  font-size: 15px;
   padding-right: 5px;
   border-right: 3px solid #900a0c;
   line-height: 15px;
@@ -2340,6 +2366,9 @@ header.mobile {
     max-width: 100%;
     margin: 10px 0;
   }
+}
+.text {
+  font-weight: 700 !important;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -279,14 +279,20 @@ section {
                 gap: 1rem;
                 .swiper {
                     width: 100%;
-                    height: 445px;
+                    height: 475px;
+                    @media (max-width: 1599.98px) {
+                        height: 435px;
+                    }
                     .swiper-slide {
                         height: 100%;
                         overflow: hidden;
                         border-radius: 10px;
                         img {
                             width: 100%;
-                            height: 100%;
+                            height: 475px;
+                            @media (max-width: 1599.98px) {
+                                height: 435px;
+                            }        
                             object-fit: cover
                         }
                         .text {
@@ -311,6 +317,12 @@ section {
                             }
                             h1 {
                                 font-size: 26px;
+                                @media (min-width: 1400px) {
+                                    font-size: 37px;
+                                }
+                                @media (max-width: 1599.98px) {
+                                    font-size: 27px;
+                                }
                             }
                         }
                     }
@@ -336,14 +348,18 @@ section {
                         display: flex;
                         gap: 10px;
                         align-items: center;
-                        font-size: 14px;
+                        font-size: 19px;
                         padding: 10px;
                         background: white;
                         border-radius: 10px;
                         box-shadow: 0 0 15.5px hsla(0,0%,83%,.23);
-                        font-weight: 600;
+                        font-weight: 700;
                         cursor: pointer;
                         transition: .3s all ease-in;
+                        @media (max-width: 1599.98px) {
+                            line-height: 26px;
+                            font-size: 16px;
+                        }
                         &:hover {
                             color: $main-color;
                         }
@@ -355,7 +371,7 @@ section {
                             -webkit-box-orient: vertical;
                             .cat {
                                 display: block;
-                                font-size: 12px;
+                                font-size: 15px;
                                 padding-right: 5px;
                                 border-right: 3px solid #900a0c;
                                 line-height: 15px;
@@ -2492,4 +2508,7 @@ header.mobile {
       max-width: 100%;
       margin: 10px 0;
     }
+}
+.text {
+    font-weight: 700 !important;
 }
