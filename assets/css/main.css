@@ -83,6 +83,11 @@ header .container .col:first-child img {
   height: 100%;
   object-fit: contain;
 }
+@media (min-width: 1600px) {
+  header .container .col:first-child img {
+    max-width: 180px;
+  }
+}
 
 header .container .col:first-child:after {
   position: absolute;
@@ -109,6 +114,14 @@ header .container .col:nth-child(2) .info {
   padding: 5px 20px;
   color: white;
 }
+@media (min-width: 1600px) {
+  header .container .col:nth-child(2) .info {
+    font-size: 15px;
+    width: 100%;
+    gap: 1rem;
+    padding: 14px 20px;
+  }
+}
 
 header .container .col:nth-child(2) nav {
   padding-right: 1.5rem;
@@ -131,6 +144,11 @@ header .container .col:nth-child(2) nav a {
   font-size: 16px;
   transition: 0.3s ease-in all;
   padding: 0 1rem;
+}
+@media (min-width: 1600px) {
+  header .container .col:nth-child(2) nav a {
+    font-size: 22px;
+  }
 }
 header .container .col:nth-child(2) nav a svg path {
   stroke: white;
@@ -171,6 +189,11 @@ header .container .col:last-child .input-search-group input {
   min-height: 50px;
   border-radius: 10px 0 0 0;
   background: white;
+}
+@media (min-width: 1600px) {
+  header .container .col:last-child .input-search-group input {
+    min-height: 60px;
+  }
 }
 header .container .col:last-child .input-search-group input:focus {
   outline: 1px solid #c51212;

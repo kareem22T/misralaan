@@ -87,6 +87,9 @@ header .container .col:first-child img {
     max-width: 150px;
     height: 100%;
     object-fit: contain;
+    @media (min-width: 1600px) {
+        max-width: 180px;
+    }
 }
 
 header .container .col:first-child:after {
@@ -112,7 +115,13 @@ header .container .col:nth-child(2) .info{
     width: 100%;
     gap: 1rem;
     padding: 5px 20px;
-    color: white
+    color: white;
+    @media (min-width: 1600px) {
+        font-size: 15px;
+        width: 100%;
+        gap: 1rem;
+        padding: 14px 20px;
+    }
 }
 
 header .container .col:nth-child(2) nav {
@@ -137,6 +146,10 @@ header .container .col:nth-child(2) nav a {
     font-size: 16px;
     transition: .3s ease-in all;
     padding: 0 1rem;
+    @media (min-width: 1600px) {
+        font-size: 22px;
+
+    }
     svg path {
         stroke: white;
     }
@@ -174,6 +187,9 @@ header .container .col:last-child {
             min-height: 50px;
             border-radius: 10px 0 0 0;
             background: white;
+            @media (min-width: 1600px) {
+                min-height: 60px;
+            }
             &:focus {
                 outline: 1px solid $main-color;
             }
