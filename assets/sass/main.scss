@@ -344,6 +344,7 @@ section {
                         left: 1rem;
                         width: auto;
                         .swiper-pagination-bullet {
+                            cursor: pointer;
                             width: 1rem;
                             height: 1rem;
                             background: white;
@@ -562,7 +563,7 @@ section {
             align-items: center;
             margin-bottom: 1rem;
             h1 {
-                font-size: 30px;
+                font-size: 26px;
                 font-weight: 700;
                 color: $secondary-color;
                 margin: 0;
@@ -570,6 +571,9 @@ section {
                 justify-content: center;
                 align-items: center;
                 gap: 10px;
+                svg {
+                    width: 40px;
+                }
                 svg path {
                     stroke: $secondary-color;
                 }
@@ -974,17 +978,17 @@ section {
                 display: flex;
                 justify-content: space-between;
                 .reference, .date {
-                    font-size: 18px;
+                    font-size: 15px;
                     color: #324455;
                     display: flex;
                     align-items: center;
                     gap: 5px;
                     svg {
-                        width: 25px;
+                        width: 22px;
                     }
                     &.date {
                         svg {
-                            width: 32px;
+                            width: 28px;
                         }
                     }
                 }
@@ -1333,7 +1337,7 @@ section {
                     }
                 }
             }   
-            >h2 {
+            >h3 {
                 display: flex;
                 align-items: center;
                 gap: 10px;
@@ -1352,7 +1356,7 @@ section {
                     display: flex;
                     gap: 10px;
                     align-items: center;
-                    font-size: 19px;
+                    font-size: 15px;
                     padding: 10px;
                     background: white;
                     border-radius: 10px;
@@ -1363,10 +1367,6 @@ section {
                         transition: .3s all ease-in;
                         color: black;
                         text-decoration: none;
-                    }
-                    @media (max-width: 1599.98px) {
-                        line-height: 26px;
-                        font-size: 16px;
                     }
                     a:hover {
                         color: $main-color;
@@ -1420,17 +1420,17 @@ section {
                 display: flex;
                 justify-content: space-between;
                 .reference, .date {
-                    font-size: 18px;
+                    font-size: 15px;
                     color: #324455;
                     display: flex;
                     align-items: center;
                     gap: 5px;
                     svg {
-                        width: 25px;
+                        width: 22px;
                     }
                     &.date {
                         svg {
-                            width: 32px;
+                            width: 28px;
                         }
                     }
                 }
@@ -1507,6 +1507,7 @@ section {
                 align-items: center;
                 gap: 5px;
                 color: white;
+                margin-top: 1rem;
                 svg {
                     width: 30px;
                     path {
@@ -1568,12 +1569,6 @@ section {
                         margin-top: 10px;
                         font-weight: 600;
                         
-                    }
-                    transition: .3s ease-in all;
-                    &:hover {
-                        .text {
-                            color: $main-color
-                        }
                     }
                 }
                 &.art_grid {
@@ -1784,7 +1779,7 @@ section {
                     }
                 }
             }   
-            >h2 {
+            >h3 {
                 display: flex;
                 align-items: center;
                 gap: 10px;
@@ -1803,7 +1798,7 @@ section {
                     display: flex;
                     gap: 10px;
                     align-items: center;
-                    font-size: 19px;
+                    font-size: 15px;
                     padding: 10px;
                     background: white;
                     border-radius: 10px;
@@ -1814,10 +1809,6 @@ section {
                         transition: .3s all ease-in;
                         color: black;
                         text-decoration: none;
-                    }
-                    @media (max-width: 1599.98px) {
-                        line-height: 26px;
-                        font-size: 16px;
                     }
                     a:hover {
                         color: $main-color;
@@ -1854,7 +1845,6 @@ section {
     }
     }
 }
-
 footer {
     background: #161d26;
     padding: 1rem 0 0;

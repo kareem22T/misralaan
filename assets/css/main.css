@@ -329,6 +329,7 @@ section.main .container .main_articles_wrapper .swiper .swiper-pagination {
   width: auto;
 }
 section.main .container .main_articles_wrapper .swiper .swiper-pagination .swiper-pagination-bullet {
+  cursor: pointer;
   width: 1rem;
   height: 1rem;
   background: white;
@@ -536,7 +537,7 @@ section.main .ad img {
   margin-bottom: 1rem;
 }
 .articles_home_wrapper .container .head h1 {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 700;
   color: #161d26;
   margin: 0;
@@ -544,6 +545,9 @@ section.main .ad img {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+.articles_home_wrapper .container .head h1 svg {
+  width: 40px;
 }
 .articles_home_wrapper .container .head h1 svg path {
   stroke: #161d26;
@@ -940,17 +944,17 @@ section.main .ad img {
   justify-content: space-between;
 }
 .single_article_wrapper .container article .head .reference, .single_article_wrapper .container article .head .date {
-  font-size: 18px;
+  font-size: 15px;
   color: #324455;
   display: flex;
   align-items: center;
   gap: 5px;
 }
 .single_article_wrapper .container article .head .reference svg, .single_article_wrapper .container article .head .date svg {
-  width: 25px;
+  width: 22px;
 }
 .single_article_wrapper .container article .head .reference.date svg, .single_article_wrapper .container article .head .date.date svg {
-  width: 32px;
+  width: 28px;
 }
 .single_article_wrapper .container article .author_name_wrapper {
   display: flex;
@@ -1282,7 +1286,7 @@ section.main .ad img {
   width: 100%;
   border-radius: 10px;
 }
-.single_article_wrapper .container .side-bar > h2 {
+.single_article_wrapper .container .side-bar > h3 {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -1290,7 +1294,7 @@ section.main .ad img {
   margin-top: 1rem;
   margin-bottom: 10px;
 }
-.single_article_wrapper .container .side-bar > h2 svg path {
+.single_article_wrapper .container .side-bar > h3 svg path {
   stroke: #161d26;
 }
 .single_article_wrapper .container .side-bar .most-popular-articles {
@@ -1302,7 +1306,7 @@ section.main .ad img {
   display: flex;
   gap: 10px;
   align-items: center;
-  font-size: 19px;
+  font-size: 15px;
   padding: 10px;
   background: white;
   border-radius: 10px;
@@ -1314,12 +1318,6 @@ section.main .ad img {
   transition: 0.3s all ease-in;
   color: black;
   text-decoration: none;
-}
-@media (max-width: 1599.98px) {
-  .single_article_wrapper .container .side-bar .most-popular-articles .article {
-    line-height: 26px;
-    font-size: 16px;
-  }
 }
 .single_article_wrapper .container .side-bar .most-popular-articles .article a:hover {
   color: #c51212;
@@ -1373,17 +1371,17 @@ section.main .ad img {
   justify-content: space-between;
 }
 .single_category_wrapper .container article .head .reference, .single_category_wrapper .container article .head .date {
-  font-size: 18px;
+  font-size: 15px;
   color: #324455;
   display: flex;
   align-items: center;
   gap: 5px;
 }
 .single_category_wrapper .container article .head .reference svg, .single_category_wrapper .container article .head .date svg {
-  width: 25px;
+  width: 22px;
 }
 .single_category_wrapper .container article .head .reference.date svg, .single_category_wrapper .container article .head .date.date svg {
-  width: 32px;
+  width: 28px;
 }
 .single_category_wrapper .container article .author_name_wrapper {
   display: flex;
@@ -1452,6 +1450,7 @@ section.main .ad img {
   align-items: center;
   gap: 5px;
   color: white;
+  margin-top: 1rem;
 }
 .single_category_wrapper .container article .show-more-articles-head svg {
   width: 30px;
@@ -1469,7 +1468,6 @@ section.main .ad img {
 .single_category_wrapper .container article .articles_wrapper .article {
   width: 100%;
   text-decoration: none;
-  transition: 0.3s ease-in all;
 }
 .single_category_wrapper .container article .articles_wrapper .article .thumbnail {
   width: 100%;
@@ -1515,9 +1513,6 @@ section.main .ad img {
   -webkit-box-orient: vertical;
   margin-top: 10px;
   font-weight: 600;
-}
-.single_category_wrapper .container article .articles_wrapper .article:hover .text {
-  color: #c51212;
 }
 .single_category_wrapper .container article .articles_wrapper.art_grid .article {
   position: relative;
@@ -1718,7 +1713,7 @@ section.main .ad img {
   width: 100%;
   border-radius: 10px;
 }
-.single_category_wrapper .container .side-bar > h2 {
+.single_category_wrapper .container .side-bar > h3 {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -1726,7 +1721,7 @@ section.main .ad img {
   margin-top: 1rem;
   margin-bottom: 10px;
 }
-.single_category_wrapper .container .side-bar > h2 svg path {
+.single_category_wrapper .container .side-bar > h3 svg path {
   stroke: #161d26;
 }
 .single_category_wrapper .container .side-bar .most-popular-articles {
@@ -1738,7 +1733,7 @@ section.main .ad img {
   display: flex;
   gap: 10px;
   align-items: center;
-  font-size: 19px;
+  font-size: 15px;
   padding: 10px;
   background: white;
   border-radius: 10px;
@@ -1750,12 +1745,6 @@ section.main .ad img {
   transition: 0.3s all ease-in;
   color: black;
   text-decoration: none;
-}
-@media (max-width: 1599.98px) {
-  .single_category_wrapper .container .side-bar .most-popular-articles .article {
-    line-height: 26px;
-    font-size: 16px;
-  }
 }
 .single_category_wrapper .container .side-bar .most-popular-articles .article a:hover {
   color: #c51212;

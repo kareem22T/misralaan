@@ -7,7 +7,13 @@ var swiper = new Swiper(".mySwiper", {
         delay: 5000, // in milliseconds
     },
 });
-
+var paginationContainer = document.querySelector(".swiper-pagination");
+paginationContainer.addEventListener('click', function (event) {
+    var index = Array.from(paginationContainer.children).indexOf(event.target);
+    if (index !== -1) {
+        swiper.slideTo(index); // Go to the corresponding slide when a pagination bullet is clicked
+    }
+});
 
 $(".show_aside, .hide-content").on("click", function (e) {
     e.preventDefault()
